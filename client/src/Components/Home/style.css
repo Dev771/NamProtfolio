@@ -1,9 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 body {
     padding: 0;
     margin: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal
+}
+
+.dateAndTime {
+    font-weight: 400;
+    color: gray;
 }
 
 .heroSection {
     background-image: url("../../public/image/Frame.jpeg");
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+}
+
+.heroSectionMainDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainString {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.otherContent {
+    font-weight: 300;
+}
+
+.scribleMan {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.IWorked {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.compIcons {
+    display: flex;
+    gap: 10px;
+    align-items: end;
 }

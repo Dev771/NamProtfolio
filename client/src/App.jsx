@@ -1,16 +1,15 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Homescreen from './Components/Home/Homescreen.jsx';
+import Home from './Components/Home/Home.jsx';
 import Navbar from './Components/Navbar/Navbar';
+import Bento from './Components/Bento/Bento.jsx';
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <div>
             <Navbar />
-            <Routes>
-                <Route path='/' element={<Homescreen />} />
-            </Routes>
-        </BrowserRouter>
+            <Home />
+            <Bento />
+        </div>
     )
 }
 
