@@ -19,7 +19,7 @@
 }
 
 .box {
-    background-color: grey;
+    background-color: rgba(151, 151, 151, .4);
     border-radius: 20px;
 }
 
@@ -60,6 +60,15 @@
     /* background-size: contain; */
     background-repeat: no-repeat;
     background-size: cover;
-    border: 6px solid grey;
+    border: 7px solid rgba(151, 151, 151, .4);
+    overflow: hidden;
     /* <iframe src="" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/milk-water-droplet-one-food-story-5UDr1W3SXoTO8wAZdB">via GIPHY</a></p> */
+}
+
+.threed {
+    background-image: url("../../public/image/Nike.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid rgba(151, 151, 151, .4);
 }

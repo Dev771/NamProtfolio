@@ -11,7 +11,7 @@ const Bento = () => {
             <div className='carasoul box' ></div>
             <div className='bentoMid' >
                 <div className='color box' ></div>
-                <div className='3d box' ></div>
+                <div className='threed box' ></div>
             </div>
             <div className='bentoMid' >
                 <div className='psyduck box' >
